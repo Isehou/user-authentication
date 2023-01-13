@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Login from "../components/Login";
+import "./style.css";
 
 function LoginPage() {
   return (
-    <div>
+    <div className="wrapper">
       <h1>Login</h1>
       <Login />
       <p>

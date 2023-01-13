@@ -6,12 +6,12 @@ function Form({ title, handleClick }) {
 
   return (
     <div>
-      {/* <input
+      <input
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="email"
-      /> */}
+      />
       <input
         type="password"
         value={pass}

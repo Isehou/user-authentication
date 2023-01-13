@@ -5,7 +5,9 @@ import "./header.css";
 function Header(props) {
   return (
     <div className="header">
-      <h1>User Authentication</h1>
+      <Link to="/">
+        <h1>User Authentication</h1>
+      </Link>
       <ul>
         {props.links.map((el, i) => {
           return (
