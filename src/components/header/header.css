@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: cornflowerblue;
+  width: 100%;
+  height: 80px;
+  padding: 15px;
+  color: white;
+}
+.header__links-container {
+  display: flex;
+  font-size: 14pt;
+  color: white;
+}
